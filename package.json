@@ -1,0 +1,42 @@
+{
+  "name": "ibcol-towww",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "",
+  "keywords": [
+    "zeit",
+    "now",
+    "www",
+    "redirect"
+  ],
+  "scripts": {
+    "start": "",
+    
+    "deploy": "now --team ibcol && now alias --team ibcol"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/ibcol/ibcol-towww.git"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/ibcol/ibcol-towww/issues"
+  },
+  "author": {
+    "name": "Breaking Bad Interactive",
+    "email": "hello@bbi.io",
+    "url": "http://bbi.io"
+  },
+  "contributors": [
+    {
+      "name": "William Li",
+      "email": "williamli@bbi.io",
+      "url": "http://williamli.io"
+    }
+  ],
+  "license": "UNLICENSED",
+  "homepage": "https://bitbucket.org/ibcol/ibcol-towww#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
