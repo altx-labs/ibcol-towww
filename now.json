@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "alias": ["ibcol.org"],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://www.ibcol.org/$1" }
+    }
+  ]
+}
