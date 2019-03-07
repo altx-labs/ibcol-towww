@@ -1,6 +1,14 @@
 {
   "version": 2,
+  "name": "ibcol-toWWW",
   "alias": ["ibcol.org"],
+  "regions": ["all"],
+  "github": {
+    "enabled": true,
+    "autoAlias": true,
+    "silent": false,
+    "autoJobCancelation": true
+  },
   "routes": [
     {
       "src": "/(.*)",
