@@ -3,12 +3,6 @@
   "name": "ibcol-towww",
   "alias": ["ibcol.org"],
   "regions": ["all"],
-  "github": {
-    "enabled": true,
-    "autoAlias": true,
-    "silent": false,
-    "autoJobCancelation": true
-  },
   "routes": [
     {
       "src": "/(.*)",
