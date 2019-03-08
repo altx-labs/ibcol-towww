@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "ibcol-towww",
-  "alias": ["ibcol.org"],
+  "alias": ["ibcol.org", "uat.ibcol.org"],
   "regions": ["all"],
   "routes": [
     {
